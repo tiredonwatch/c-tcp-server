@@ -1,0 +1,17 @@
+# Build Artifacts
+*.o
+server
+client
+*.exe
+
+#VS Code specifics
+.vscode/
+
+#core dumps and crash logs
+core
+*.core
+
+# WSL/Windows
+Thumbs.db
+Desktop.ini
+.directory
