@@ -1,7 +1,8 @@
-#ifndef NETWORK_UTILS.H
-#define NETWORK_UTILS.H
+#ifndef NETWORK_UTILS
+#define NETWORK_UTILS
 
 #include <sys/types.h>
+#include <sys/socket.h>
 
 #define SERVER_PORT 8080
 #define BACKLOG     10     // max number of connections in queue

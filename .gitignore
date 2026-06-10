@@ -1,8 +1,6 @@
 # Build Artifacts
 *.o
-server
-client
-*.exe
+network_utils
 
 #VS Code specifics
 .vscode/
@@ -10,8 +8,3 @@ client
 #core dumps and crash logs
 core
 *.core
-
-# WSL/Windows
-Thumbs.db
-Desktop.ini
-.directory
